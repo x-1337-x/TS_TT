@@ -1,59 +1,112 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" ng-app>
 <head>
   <meta charset="UTF-8">
 <title>Index</title>
 
 <!-- build:css ../static/css/style.css -->
+<link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="../static/css/style.css">
 <!-- endbuild -->
 </head>
 <body>
 
-  <div class="calculator">
-    <div class="slider-container">
-      <label for="currency">CURRENCY</label>
-      <div class="slider" id="currency"></div>
-    </div>
-    <div class="slider-value" id="currency-value"></div> 
-    <div class="slider-container">
-      <label for="amount">AMOUNT</label>
-      <div class="slider" id="amount"></div>
-    </div>
-    <div class="slider-value" id="amount-value"></div>
-    <div class="slider-container">
-      <label for="timeSpan">DEPOSIT PERIOD (MONTHS)</label>
-      <div class="slider" id="timeSpan"></div>
-    </div>
-    <div class="slider-value" id="timeSpan-value"></div>
-
-    <div class="income-container">
-      <div class="income" id="income">PROFIT: </div>
-    </div>
-
-    <div class="graph-container">
-      <div class="graphs">
-        <div class="graph" id="amount-graph">initial</div>
+    <div class="l-header container-fluid">
+    <div class="row">
+      <div class="l-header-top col-md-12">
+        <div class="container clearfix">
+          <div class="l-header-logo col-md-4">
+            <a href="#"><span class="icon icon-LOGO-1"></span></a>
+          </div>
+          <div class="l-header-input col-md-4">
+            <input type="text" class="c-input-rounded" placeholder="What are you looking for ?">
+          </div>
+          <div class="l-header-right-block col-md-4 pull-right">
+            <ul class="l-header-navbar">
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Sign up</a></li>
+              <li><a href="#">Profile</a></li>
+            </ul>
+            <ul class="l-header-tagblock">
+              <li class="l-header-tagblock-item"><span class="icon icon-location"></span></li>
+              <li class="l-header-tagblock-item c-tag">AUS</li>
+              <li class="l-header-tagblock-item c-tag">QLD</li>
+              <li class="l-header-tagblock-item c-tag">BRISBANE</li>
+              <li class="l-header-tagblock-item c-tag">Suburb</li>
+            </ul>
+          </div>
+        </div>
       </div>
-    
-      <div class="graphs">
-        <div class="graph" id="summary-graph">summary</div>
+      <div class="l-header-bottom col-md-12">
+        <div class="container">
+          <ul class="l-header-bottom-links col-md-12 clearfix">
+            <li class="l-header-bottom-links-item pull-left"><a href="#">HOME</a></li>
+            <li class="l-header-bottom-links-item pull-left"><a href="#">LOCAL</a></li>
+            <li class="l-header-bottom-links-item pull-right"><a href="#">Subscription</a></li>
+            <li class="l-header-bottom-links-item pull-right"><a href="#">Affiliate</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-
   </div>
+
+  <div class="l-footer container-fluid">
+  <div class="row">
+    <div class="container clearfix">
+      <div class="l-footer-lists col-md-9">
+        <ul class="l-footer-lists-column">
+          <li>Company</li>
+          <li><a href="#">About Negotiared</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+        <ul class="l-footer-lists-column">
+          <li>Work with Negotiated</li>
+          <li><a href="#">Run a Deal</a></li>
+          <li><a href="#">Affiliate program</a></li>
+          <li><a href="#">Become an Ambassador</a></li>
+        </ul>
+        <ul class="l-footer-lists-column">
+          <li>Additional info</li>
+          <li><a href="#">How it works</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <ul class="l-footer-lists-column">
+          <li>Legal</li>
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="l-footer-logo col-md-2">
+        <a href="#"><span class="icon icon-LOGO-1-sm"></span></a>
+      </div>
+      <div class="l-footer-social col-md-2">
+        <span class="l-footer-social-text">Follow us</span>
+        <div class="l-footer-social-icons">
+          <a href=""><span class="icon icon-twitter"></span></a>
+          <a href=""><span class="icon icon-facebook"></span></a>
+        </div>
+      </div>
+      <div class="l-footer-info col-md-10">
+        <div class="l-footer-info-title">Get deals and save</div>
+        <p>Negotiated.com.au is an easy way to save on your shopping. You can either browse beetween deals or ask a business to give you a custom Deal by negotiating what you want and the business will create your Custom NegoPon deal.</p>
+        <p><strong>&#169;</strong> 2016 Negotiated Pty.Ltd. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
   
-
-
-  <!-- build:js ../../bower_components/jquery/dist/jquery.min.js -->
-<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-<!-- endbuild -->
-
-<!-- build:js ../../bower_components/jquery-ui/jquery-ui.min.js -->
-<script src="../../bower_components/jquery-ui/jquery-ui.min.js"></script>
-<!-- endbuild -->
-
 <!-- build:js ../static/js/common.js -->
+<script src="../../node_modules/angular/angular.min.js"></script>
+<script src="../../node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="../../node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+<script src="../../node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
 <script src="../static/js/common.js"></script>
 <!-- endbuild -->
 

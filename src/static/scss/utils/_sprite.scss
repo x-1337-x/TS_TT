@@ -1,0 +1,206 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon-l-o-g-o-1-sm-name: 'icon-LOGO-1-sm';
+$icon-l-o-g-o-1-sm-x: 0px;
+$icon-l-o-g-o-1-sm-y: 69px;
+$icon-l-o-g-o-1-sm-offset-x: 0px;
+$icon-l-o-g-o-1-sm-offset-y: -69px;
+$icon-l-o-g-o-1-sm-width: 246px;
+$icon-l-o-g-o-1-sm-height: 46px;
+$icon-l-o-g-o-1-sm-total-width: 353px;
+$icon-l-o-g-o-1-sm-total-height: 283px;
+$icon-l-o-g-o-1-sm-image: '../i/sprite.png';
+$icon-l-o-g-o-1-sm: (0px, 69px, 0px, -69px, 246px, 46px, 353px, 283px, '../i/sprite.png', 'icon-LOGO-1-sm', );
+$icon-l-o-g-o-1-name: 'icon-LOGO-1';
+$icon-l-o-g-o-1-x: 0px;
+$icon-l-o-g-o-1-y: 0px;
+$icon-l-o-g-o-1-offset-x: 0px;
+$icon-l-o-g-o-1-offset-y: 0px;
+$icon-l-o-g-o-1-width: 353px;
+$icon-l-o-g-o-1-height: 69px;
+$icon-l-o-g-o-1-total-width: 353px;
+$icon-l-o-g-o-1-total-height: 283px;
+$icon-l-o-g-o-1-image: '../i/sprite.png';
+$icon-l-o-g-o-1: (0px, 0px, 0px, 0px, 353px, 69px, 353px, 283px, '../i/sprite.png', 'icon-LOGO-1', );
+$icon-l-o-g-o-w-h-i-t-e-1-name: 'icon-LOGO-WHITE-1';
+$icon-l-o-g-o-w-h-i-t-e-1-x: 0px;
+$icon-l-o-g-o-w-h-i-t-e-1-y: 165px;
+$icon-l-o-g-o-w-h-i-t-e-1-offset-x: 0px;
+$icon-l-o-g-o-w-h-i-t-e-1-offset-y: -165px;
+$icon-l-o-g-o-w-h-i-t-e-1-width: 218px;
+$icon-l-o-g-o-w-h-i-t-e-1-height: 42px;
+$icon-l-o-g-o-w-h-i-t-e-1-total-width: 353px;
+$icon-l-o-g-o-w-h-i-t-e-1-total-height: 283px;
+$icon-l-o-g-o-w-h-i-t-e-1-image: '../i/sprite.png';
+$icon-l-o-g-o-w-h-i-t-e-1: (0px, 165px, 0px, -165px, 218px, 42px, 353px, 283px, '../i/sprite.png', 'icon-LOGO-WHITE-1', );
+$icon-r-d-logo-name: 'icon-RD_logo';
+$icon-r-d-logo-x: 283px;
+$icon-r-d-logo-y: 115px;
+$icon-r-d-logo-offset-x: -283px;
+$icon-r-d-logo-offset-y: -115px;
+$icon-r-d-logo-width: 38px;
+$icon-r-d-logo-height: 38px;
+$icon-r-d-logo-total-width: 353px;
+$icon-r-d-logo-total-height: 283px;
+$icon-r-d-logo-image: '../i/sprite.png';
+$icon-r-d-logo: (283px, 115px, -283px, -115px, 38px, 38px, 353px, 283px, '../i/sprite.png', 'icon-RD_logo', );
+$icon-check-name: 'icon-check';
+$icon-check-x: 0px;
+$icon-check-y: 207px;
+$icon-check-offset-x: 0px;
+$icon-check-offset-y: -207px;
+$icon-check-width: 76px;
+$icon-check-height: 76px;
+$icon-check-total-width: 353px;
+$icon-check-total-height: 283px;
+$icon-check-image: '../i/sprite.png';
+$icon-check: (0px, 207px, 0px, -207px, 76px, 76px, 353px, 283px, '../i/sprite.png', 'icon-check', );
+$icon-facebook-name: 'icon-facebook';
+$icon-facebook-x: 197px;
+$icon-facebook-y: 115px;
+$icon-facebook-offset-x: -197px;
+$icon-facebook-offset-y: -115px;
+$icon-facebook-width: 43px;
+$icon-facebook-height: 43px;
+$icon-facebook-total-width: 353px;
+$icon-facebook-total-height: 283px;
+$icon-facebook-image: '../i/sprite.png';
+$icon-facebook: (197px, 115px, -197px, -115px, 43px, 43px, 353px, 283px, '../i/sprite.png', 'icon-facebook', );
+$icon-icon-pay-online-name: 'icon-icon-pay-online';
+$icon-icon-pay-online-x: 321px;
+$icon-icon-pay-online-y: 115px;
+$icon-icon-pay-online-offset-x: -321px;
+$icon-icon-pay-online-offset-y: -115px;
+$icon-icon-pay-online-width: 30px;
+$icon-icon-pay-online-height: 31px;
+$icon-icon-pay-online-total-width: 353px;
+$icon-icon-pay-online-total-height: 283px;
+$icon-icon-pay-online-image: '../i/sprite.png';
+$icon-icon-pay-online: (321px, 115px, -321px, -115px, 30px, 31px, 353px, 283px, '../i/sprite.png', 'icon-icon-pay-online', );
+$icon-location-name: 'icon-location';
+$icon-location-x: 331px;
+$icon-location-y: 69px;
+$icon-location-offset-x: -331px;
+$icon-location-offset-y: -69px;
+$icon-location-width: 17px;
+$icon-location-height: 24px;
+$icon-location-total-width: 353px;
+$icon-location-total-height: 283px;
+$icon-location-image: '../i/sprite.png';
+$icon-location: (331px, 69px, -331px, -69px, 17px, 24px, 353px, 283px, '../i/sprite.png', 'icon-location', );
+$icon-metrics-name: 'icon-metrics';
+$icon-metrics-x: 246px;
+$icon-metrics-y: 69px;
+$icon-metrics-offset-x: -246px;
+$icon-metrics-offset-y: -69px;
+$icon-metrics-width: 85px;
+$icon-metrics-height: 42px;
+$icon-metrics-total-width: 353px;
+$icon-metrics-total-height: 283px;
+$icon-metrics-image: '../i/sprite.png';
+$icon-metrics: (246px, 69px, -246px, -69px, 85px, 42px, 353px, 283px, '../i/sprite.png', 'icon-metrics', );
+$icon-paypal-logo-name: 'icon-paypal_logo';
+$icon-paypal-logo-x: 0px;
+$icon-paypal-logo-y: 115px;
+$icon-paypal-logo-offset-x: 0px;
+$icon-paypal-logo-offset-y: -115px;
+$icon-paypal-logo-width: 197px;
+$icon-paypal-logo-height: 50px;
+$icon-paypal-logo-total-width: 353px;
+$icon-paypal-logo-total-height: 283px;
+$icon-paypal-logo-image: '../i/sprite.png';
+$icon-paypal-logo: (0px, 115px, 0px, -115px, 197px, 50px, 353px, 283px, '../i/sprite.png', 'icon-paypal_logo', );
+$icon-twitter-name: 'icon-twitter';
+$icon-twitter-x: 240px;
+$icon-twitter-y: 115px;
+$icon-twitter-offset-x: -240px;
+$icon-twitter-offset-y: -115px;
+$icon-twitter-width: 43px;
+$icon-twitter-height: 43px;
+$icon-twitter-total-width: 353px;
+$icon-twitter-total-height: 283px;
+$icon-twitter-image: '../i/sprite.png';
+$icon-twitter: (240px, 115px, -240px, -115px, 43px, 43px, 353px, 283px, '../i/sprite.png', 'icon-twitter', );
+$spritesheet-width: 353px;
+$spritesheet-height: 283px;
+$spritesheet-image: '../i/sprite.png';
+$spritesheet-sprites: ($icon-l-o-g-o-1-sm, $icon-l-o-g-o-1, $icon-l-o-g-o-w-h-i-t-e-1, $icon-r-d-logo, $icon-check, $icon-facebook, $icon-icon-pay-online, $icon-location, $icon-metrics, $icon-paypal-logo, $icon-twitter, );
+$spritesheet: (353px, 283px, '../i/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

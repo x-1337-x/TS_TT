@@ -30,7 +30,7 @@ gulp.task('build:test', function() {
   return gulp.src('./src/preview/*.html')
     .pipe(useref())
     .pipe(gulpif('*.css', postcss(processors)))
-    .pipe(gulpif('*.js', uglify()))
+    //.pipe(gulpif('*.js', uglify()))
     .pipe(gulp.dest('./dist/html'));
 })
 
@@ -74,6 +74,8 @@ gulp.task('dev:sprite', function () {
     .pipe(spritesmith({    
       imgName: '../i/sprite.png',
       cssName: '_sprite.scss',
+      // algorithm: 'binary-tree',
+      // padding: 5,
       cssVarMap: function (sprite) {
         sprite.name = 'icon-' + sprite.name;
       }
@@ -84,7 +86,7 @@ gulp.task('dev:sprite', function () {
     .pipe(gulp.dest( './src/static/i/')); 
   
   var cssStream = spriteData.css
-    .pipe(gulp.dest( './src/static/scss/utils' ));
+    .pipe(gulp.dest( './src/static/scss/abstracts' ));
    
   return merge(imgStream, cssStream);
 
@@ -105,7 +107,7 @@ gulp.task('dev:serve', function() {
 
   watch([
     "./src/static/scss/**/*.scss", 
-    "!./src/static/scss/utils/_sprite.scss"
+    "!./src/static/scss/abstracts/_sprite.scss"
   ], function() {
     runSequence('dev:sprite', 'dev:css');
   });

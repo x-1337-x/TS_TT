@@ -1,0 +1,33 @@
+.l-footer {
+  width: 100%;
+  background-color: #1e1d1d;
+  padding: 25px 0;
+}
+
+.l-footer-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-footer-lists-column {
+  display: inline-block;
+
+  & li:first-child {
+    font-family: 'SourceSansPro-Regular';
+    font-size: 18px;
+    color: #fff;
+  }
+
+  a {
+    font-family: 'SourceSansPro-Light';
+    font-size: 15px;
+    color: #fff;
+  }
+}
+
+.l-footer-social {
+  text-align: center;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 18px;
+  color: #fff;
+}
