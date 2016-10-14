@@ -5551,6 +5551,12 @@ The `sprites` mixin generates identical output to the CSS template
   width: 76px;
   height: 76px; }
 
+.icon-counter {
+  background-image: url(../i/sprite.png);
+  background-position: -246px -69px;
+  width: 85px;
+  height: 42px; }
+
 .icon-facebook {
   background-image: url(../i/sprite.png);
   background-position: -197px -115px;
@@ -5568,12 +5574,6 @@ The `sprites` mixin generates identical output to the CSS template
   background-position: -331px -69px;
   width: 17px;
   height: 24px; }
-
-.icon-metrics {
-  background-image: url(../i/sprite.png);
-  background-position: -246px -69px;
-  width: 85px;
-  height: 42px; }
 
 .icon-paypal_logo {
   background-image: url(../i/sprite.png);
@@ -5706,6 +5706,32 @@ a {
   border: 1px solid #fff;
   padding: 0 7px; }
 
+.c-section-header {
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+  font-family: 'SourceSansPro-Bold';
+  font-size: 32px;
+  color: #8fb505; }
+
+.c-message-block {
+  min-height: 145px;
+  background-color: #fff; }
+
+.c-message-block-content {
+  vertical-align: middle; }
+  .c-message-block-content .icon {
+    margin: 35px 20px 0 0; }
+
+.c-message-block-text {
+  display: inline-block;
+  font-family: 'SourceSansPro-Bold';
+  font-size: 37px;
+  color: #8fb505;
+  text-transform: uppercase;
+  vertical-align: middle;
+  margin-top: -65px; }
+
 .l-header {
   width: 100%; }
 
@@ -5760,6 +5786,8 @@ a {
   width: 100%;
   background-color: #1e1d1d;
   padding: 25px 0; }
+  .l-footer .container {
+    position: relative; }
 
 .l-footer-lists {
   display: flex;
@@ -5781,3 +5809,21 @@ a {
   font-family: 'SourceSansPro-Regular';
   font-size: 18px;
   color: #fff; }
+
+.l-footer-info p:nth-child(2) {
+  margin-bottom: 10px; }
+
+.l-footer-info-text {
+  font-family: 'SourceSansPro-Light';
+  font-size: 15px;
+  color: #fff; }
+
+.l-footer-info-text__emph {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 18px;
+  color: #fff; }
+
+.l-footer-counter {
+  position: absolute;
+  bottom: 0;
+  right: 40px; }
