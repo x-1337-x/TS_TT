@@ -35,7 +35,7 @@ gulp.task('build:test', function() {
 })
 
 gulp.task('build:move', function() {  
-  gulp.src('./bower_components/bootstrap/dist/fonts/*')
+  gulp.src('./src/static/fonts/*')
     .pipe(gulp.dest('./dist/static/fonts/'));
 
   gulp.src('./src/static/i/*.png')
