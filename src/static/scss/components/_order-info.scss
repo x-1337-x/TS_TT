@@ -1,0 +1,25 @@
+.c-order-info {
+  padding: 0 10px;
+  background-color: #e6e9ed;
+  border-radius: 5px;
+}
+
+.c-order-info-row {
+  padding: 10px 0;
+  border-bottom: 2px solid #cfd1d5;
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.c-order-info-text {
+  font-family: 'SourceSansPro-Regular';
+  font-size: 15px;
+  color: #000;
+}
+
+.c-order-info-text__emph {
+  @extend .c-order-info-text;
+  font-size: 20px;
+}

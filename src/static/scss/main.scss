@@ -9,6 +9,9 @@
 @import './base/base';
 
 @import './components/small-components';
+@import './components/nav-tabs';
+@import './components/client-info';
+@import './components/order-info';
 
 
 
@@ -17,4 +20,5 @@
 
 @import './layout/header';
 @import './layout/footer';
+@import './layout/payment-block';
 

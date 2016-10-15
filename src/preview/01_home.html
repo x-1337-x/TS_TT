@@ -65,19 +65,76 @@
 {{13+3}}
 
 <div class="container">
-  <div ui-view>
-    <uib-tabset active="active">
-      <uib-tab index="0">
-        <uib-tab-heading><span class="icon icon-paypal_logo"></span></uib-tab-heading>
-        Some Tab Content
-      </uib-tab>
-      <uib-tab index="1" heading="Tab Two">
-        <uib-tab-heading><span class="icon icon-check"></span></uib-tab-heading>
-        More Tab Content
-      </uib-tab>
-    </uib-tabset>
+  <div class="l-payment-block">
+    <div class="l-payment-block-header col-md-12">
+      Billing Details
+    </div>
+    <div class="col-md-9">
+      <div class="l-client-info col-md-12 clearfix">
+        <button class="btn btn-primary pull-right">Edit</button>
+      </div>
+
+      <div class="l-tabs-container col-md-12">
+        <div class="l-tabs-header">
+          Select Payment Method
+        </div>
+        <uib-tabset active="active">
+          <uib-tab index="0">
+            <uib-tab-heading>
+              <div class="icon icon-paypal_logo"></div>
+              <div class="c-tab-header__sub">
+                + $ 2 handling fee 
+              </div>
+            </uib-tab-heading>
+            <div class="l-tabs-section-container col-md-12">
+              Add credit during checkout using PayPal.
+            </div>
+          </uib-tab>
+          <uib-tab index="1">
+            <uib-tab-heading class="c-tab-header-container">
+              <div class="c-tab-header">
+                Negopon's
+              </div>
+              <div class="c-tab-header__sub">
+                Balance $0
+              </div>
+            </uib-tab-heading>
+            <div class="l-tabs-section-container col-md-12">
+              Negopon Stuff
+            </div>
+          </uib-tab>
+        </uib-tabset>
+      </div>
+
+      <div class="l-tabs-section-container__bordered col-md-12">
+        blabla
+      </div>
+
+      <div class="l-tabs-section-container__bordered col-md-12 clearfix">
+        <button class="c-checkout-btn pull-right">
+          Add credit and checkout
+        </button>
+      </div>  
+    </div>
+
+    <div class="l-order-info col-md-3">
+      <div class="c-order-info">
+        <div class="c-order-info-row c-order-info-text__emph">
+          Order Sumary
+        </div>
+        <div class="c-order-info-row c-order-info-text clearfix">
+          <span class="pull-left">Flyer Design</span>
+          <span class="pull-right">$20.00</span>
+        </div>
+        <div class="c-order-info-row c-order-info-text__emph clearfix">
+          <span class="pull-left">Total</span>
+          <span class="pull-right">$20.00</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 
   

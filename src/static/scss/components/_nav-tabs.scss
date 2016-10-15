@@ -1,0 +1,59 @@
+.l-tabs-container {
+  border: 2px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.l-tabs-section-container {
+  border-radius: 5px;
+  padding: 30px 25px;
+}
+
+.l-tabs-section-container__bordered {
+  border: 2px solid #f0f0f0;
+  border-top: none;
+  border-radius: 5px;
+  padding: 30px 25px
+}
+
+.l-tabs-header {
+  width: 100%;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 20px;
+  color: #666;
+  padding: 25px 20px;
+}
+
+.c-tab-header {
+  text-align: center;
+  font-family: 'SourceSansPro-Regular';
+  color: #555;
+  font-size: 28px;
+}
+
+.c-tab-header__sub {
+  text-align: center;
+  font-family: 'SourceSansPro-Regular';
+  color: #555;
+  font-size: 13px;
+}
+
+.uib-tab.nav-item.ng-scope.ng-isolate-scope {
+
+  .nav-link {
+    background-color: #e6e9ed;
+    border-top: 10px solid #e6e9ed;
+  }
+
+  &.active {
+    .nav-link {
+      border: none;
+      border-top: 10px solid #8fb505;
+      background-color: #fff;
+    }
+  }
+}
+
+.nav.nav-tabs {
+  border: none;
+}

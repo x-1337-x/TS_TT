@@ -1,0 +1,18 @@
+.l-payment-block {
+  margin: 50px 0;
+}
+
+.l-payment-block-header {
+  font-family: 'SourceSansPro-Bold';
+  font-size: 20px;
+  color: #666;
+  padding-bottom: 30px;
+}
+
+.c-checkout-btn {
+  @extend .btn;
+  background-color: #8fb505;
+  font-family: 'SourceSansPro-Regular';
+  font-size: 23px;
+  color: #fff;
+}
