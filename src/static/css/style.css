@@ -5744,7 +5744,7 @@ a {
   border: 2px solid #f0f0f0;
   border-top: none;
   border-radius: 5px;
-  padding: 30px 25px; }
+  padding: 25px; }
 
 .l-tabs-header {
   width: 100%;
@@ -5801,6 +5801,28 @@ a {
 
 .c-order-info-text__emph {
   font-size: 20px; }
+
+.c-order-details-header {
+  font-family: 'SourceSansPro-Bold';
+  font-size: 22px;
+  color: #8fb505; }
+
+.c-order-details .panel-heading {
+  background-color: #fff; }
+
+.c-order-details .panel-default {
+  border: none; }
+
+.c-order-details .panel-body {
+  border: none; }
+
+.c-order-sum-text {
+  font-family: 'SourceSansPro-Bold';
+  font-size: 22px;
+  color: #000; }
+
+.c-order-sum {
+  padding-top: 11px; }
 
 .l-header {
   width: 100%; }
